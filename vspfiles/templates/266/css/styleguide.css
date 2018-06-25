@@ -1,0 +1,517 @@
+@media only screen and (max-width: 767px) {
+  .text-xs-left {
+    text-align: left; }
+  .text-xs-right {
+    text-align: right; }
+  .text-xs-center {
+    text-align: center; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .text-sm-left {
+    text-align: left; }
+  .text-sm-right {
+    text-align: right; }
+  .text-sm-center {
+    text-align: center; } }
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .text-md-left {
+    text-align: left; }
+  .text-md-right {
+    text-align: right; }
+  .text-md-center {
+    text-align: center; } }
+
+@media only screen and (min-width: 1200px) {
+  .text-lg-left {
+    text-align: left; }
+  .text-lg-right {
+    text-align: right; }
+  .text-lg-center {
+    text-align: center; } }
+
+body, .colors_background_main, .colors_background1, .colors_background2 {
+  background-color: #fff;
+  color: #333333; }
+
+.styleguide {
+  position: relative; }
+  .styleguide .styleguide-heading {
+    position: absolute;
+    width: 100%;
+    left: 0; }
+    .styleguide .styleguide-heading + .row {
+      padding-top: 285px; }
+  .styleguide .styleguide-heading {
+    padding: 60px 0;
+    margin-bottom: 30px;
+    background-image: -webkit-linear-gradient(top, #286090 0%, #5094ce 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#286090), to(#5094ce));
+    background-image: linear-gradient(to bottom, #286090 0%, #5094ce 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF286090', endColorstr='#FF5094CE', GradientType=0);
+    color: 46.0490196078%; }
+    .styleguide .styleguide-heading h1 {
+      color: 46.0490196078%;
+      font-size: 60px;
+      letter-spacing: 0.01em; }
+    .styleguide .styleguide-heading p {
+      color: #071018; }
+  .styleguide .component-section {
+    padding: 40px 0 70px 0;
+    margin: 0 0 40px 0; }
+    .styleguide .component-section h2.component-section__title {
+      border-bottom: 1px solid #eeeeee;
+      padding-bottom: 9px;
+      margin-bottom: 30px; }
+      .styleguide .component-section h2.component-section__title:first-child {
+        margin-top: 0; }
+    .styleguide .component-section h3.component-section__title {
+      text-transform: uppercase;
+      color: #777777;
+      font-size: 18px;
+      letter-spacing: 0.05em; }
+    .styleguide .component-section h3 .glyphicon-info-sign {
+      font-size: 15px; }
+    .styleguide .component-section .tooltip {
+      text-transform: none;
+      font-size: 12px;
+      letter-spacing: 0em; }
+      .styleguide .component-section .tooltip-inner {
+        border-radius: 4px;
+        padding: 8px 10px; }
+    .styleguide .component-section .tooltip.top .tooltip-arrow {
+      margin-left: -6px;
+      border-width: 6px 6px 0; }
+  .styleguide .row + .row:not(.palette-items--gray) {
+    margin-top: 30px; }
+  .styleguide .row + h3.component-section__title {
+    margin-top: 50px; }
+  .styleguide .row--colors > div {
+    margin-bottom: 30px; }
+  .styleguide .palette {
+    font-size: 16px;
+    line-height: 1.214;
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+    font-weight: normal;
+    color: #ffffff;
+    margin: 0;
+    padding: 68px 0 8px 10px; }
+    .styleguide .palette dt {
+      font-weight: normal; }
+    .styleguide .palette-items {
+      margin-left: -20px; }
+      .styleguide .palette-items--gray {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        overflow: hidden; }
+        .styleguide .palette-items--gray .palette-item {
+          margin-left: 0;
+          border-radius: 0;
+          padding: 0; }
+          .styleguide .palette-items--gray .palette-item:first-of-type {
+            border-radius: 4px 0 0 4px; }
+          .styleguide .palette-items--gray .palette-item:last-of-type {
+            border-radius: 0 4px 4px 0; }
+          .styleguide .palette-items--gray .palette-item .palette {
+            padding-top: 28px; }
+      .styleguide .palette-items--secondary {
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 4px;
+        overflow: hidden; }
+        .styleguide .palette-items--secondary .palette-item {
+          margin-left: 0;
+          padding: 0;
+          border-radius: 0px; }
+      .styleguide .palette-items + * {
+        margin-top: 30px; }
+    .styleguide .palette-item {
+      float: left;
+      margin: 0 0 0 20px;
+      border-radius: 4px;
+      overflow: hidden; }
+      .styleguide .palette-item--primary {
+        float: none; }
+    .styleguide .palette--primary {
+      background-color: #337ab7;
+      color: 46.0490196078%; }
+      .styleguide .palette--primary.palette--tint {
+        background-color: #78acd9; }
+      .styleguide .palette--primary.palette--shade {
+        background-color: #1d4568; }
+    .styleguide .palette--complement {
+      background-color: #b77133;
+      color: 46.0490196078%; }
+      .styleguide .palette--complement.palette--tint {
+        background-color: #d9a578; }
+      .styleguide .palette--complement.palette--shade {
+        background-color: #68401d; }
+    .styleguide .palette--shade, .styleguide .palette--tint {
+      padding: 10px 0 8px 10px; }
+    .styleguide .palette--gray-base {
+      background-color: #000;
+      color: 0%; }
+    .styleguide .palette--gray-darker {
+      background-color: #222222;
+      color: 13.5%; }
+    .styleguide .palette--gray-dark {
+      background-color: #333333;
+      color: 20%; }
+    .styleguide .palette--gray {
+      background-color: #555555;
+      color: 33.5%; }
+    .styleguide .palette--gray-light {
+      background-color: #777777;
+      color: 46.7%; }
+    .styleguide .palette--gray-lighter {
+      background-color: #eeeeee;
+      color: 93.5%; }
+  .styleguide .palette--color2 {
+    background-color: #13426A;
+    color: 24.5098039216%; }
+    .styleguide .palette--color2.palette--tint {
+      background-color: #2378c0; }
+    .styleguide .palette--color2.palette--shade {
+      background-color: #030c14; }
+  .styleguide .palette--color3 {
+    background-color: #C34F4A;
+    color: 52.7450980392%; }
+    .styleguide .palette--color3.palette--tint {
+      background-color: #dc9997; }
+    .styleguide .palette--color3.palette--shade {
+      background-color: #7d2d2a; }
+  .styleguide .palette--color4 {
+    background-color: #EFC94C;
+    color: 61.7647058824%; }
+    .styleguide .palette--color4.palette--tint {
+      background-color: #f7e5aa; }
+    .styleguide .palette--color4.palette--shade {
+      background-color: #c49a11; }
+  .styleguide .palette--color5 {
+    background-color: #A9CF54;
+    color: 57.0588235294%; }
+    .styleguide .palette--color5.palette--tint {
+      background-color: #d1e5a4; }
+    .styleguide .palette--color5.palette--shade {
+      background-color: #739429; }
+  .styleguide .font-heading {
+    font-size: 40px; }
+  .styleguide .component-section--typography .font-heading {
+    font-size: 40px; }
+  .styleguide .component-section--typography .font-style-bold {
+    font-weight: bold; }
+  .styleguide .component-section--typography [class^="font-style"] span {
+    color: #337ab7; }
+  .styleguide .component-section--typography .link-example--hovered {
+    color: #23527c;
+    text-decoration: underline; }
+  .styleguide .component-section--buttons .row + .row {
+    margin-top: 15px; }
+  .styleguide .component-section--buttons #btnSubmitOrder {
+    float: none;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle; }
+  .styleguide .component-section--buttons .btn {
+    margin-bottom: 5px; }
+  .styleguide #softaddtocart .modalwrap {
+    padding: 15% 2%;
+    background: rgba(0, 0, 0, 0.5); }
+    .styleguide #softaddtocart .modalwrap #simpleModal {
+      position: relative;
+      margin: 0 auto; }
+  .styleguide #softaddtocart .cart-summary {
+    padding-top: 20px; }
+  .styleguide #leftnav {
+    margin-left: 20px;
+    padding: 10px 0;
+    border: 1px solid #eeeeee;
+    border-radius: 4px; }
+    .styleguide #leftnav.affix {
+      top: 20px;
+      width: 242px; }
+    .styleguide #leftnav .nav {
+      margin: 0 0 20px; }
+      .styleguide #leftnav .nav .nav {
+        display: none;
+        margin-bottom: 0; }
+        .styleguide #leftnav .nav .nav a {
+          background: transparent;
+          color: #777777;
+          font-size: 12px;
+          padding: 8px 25px; }
+        .styleguide #leftnav .nav .nav li.active a, .styleguide #leftnav .nav .nav a:hover {
+          background-color: #78acd9;
+          color: 66.0490196078%; }
+      .styleguide #leftnav .nav li.active .nav,
+      .styleguide #leftnav .nav li:hover .nav {
+        display: block; }
+    .styleguide #leftnav a {
+      color: #333333;
+      -webkit-transition: all 0.15s ease-out 0s;
+      transition: all 0.15s ease-out 0s;
+      font-weight: 500;
+      border-left: 2px solid transparent;
+      padding: 10px 15px 10px 20px; }
+    .styleguide #leftnav li.active a, .styleguide #leftnav a:hover {
+      background-color: #337ab7;
+      color: 46.0490196078%; }
+    .styleguide #leftnav .back-to-top {
+      display: block;
+      margin-top: 10px; }
+  .styleguide #product-reviews table[width="100%"] td[width="1%"],
+  .styleguide #product-reviews table[width="100%"] + table[width="100%"] td[width="1%"] {
+    display: none; }
+  .styleguide .soft_add_wrapper {
+    position: relative !important;
+    top: 0 !important; }
+  .styleguide .colors_descriptionbox {
+    background: transparent;
+    border: 1px solid #eee;
+    padding: 10px 15px;
+    border-collapse: separate; }
+
+body, .colors_background_main, .colors_background1, .colors_background2 {
+  background-color: #fff;
+  color: #333333; }
+
+.styleguide {
+  position: relative; }
+  .styleguide .styleguide-heading {
+    position: absolute;
+    width: 100%;
+    left: 0; }
+    .styleguide .styleguide-heading + .row {
+      padding-top: 285px; }
+  .styleguide .styleguide-heading {
+    padding: 60px 0;
+    margin-bottom: 30px;
+    background-image: -webkit-linear-gradient(top, #286090 0%, #5094ce 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#286090), to(#5094ce));
+    background-image: linear-gradient(to bottom, #286090 0%, #5094ce 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF286090', endColorstr='#FF5094CE', GradientType=0);
+    color: 46.0490196078%; }
+    .styleguide .styleguide-heading h1 {
+      color: 46.0490196078%;
+      font-size: 60px;
+      letter-spacing: 0.01em; }
+    .styleguide .styleguide-heading p {
+      color: #071018; }
+  .styleguide .component-section {
+    padding: 40px 0 70px 0;
+    margin: 0 0 40px 0; }
+    .styleguide .component-section h2.component-section__title {
+      border-bottom: 1px solid #eeeeee;
+      padding-bottom: 9px;
+      margin-bottom: 30px; }
+      .styleguide .component-section h2.component-section__title:first-child {
+        margin-top: 0; }
+    .styleguide .component-section h3.component-section__title {
+      text-transform: uppercase;
+      color: #777777;
+      font-size: 18px;
+      letter-spacing: 0.05em; }
+    .styleguide .component-section h3 .glyphicon-info-sign {
+      font-size: 15px; }
+    .styleguide .component-section .tooltip {
+      text-transform: none;
+      font-size: 12px;
+      letter-spacing: 0em; }
+      .styleguide .component-section .tooltip-inner {
+        border-radius: 4px;
+        padding: 8px 10px; }
+    .styleguide .component-section .tooltip.top .tooltip-arrow {
+      margin-left: -6px;
+      border-width: 6px 6px 0; }
+  .styleguide .row + .row:not(.palette-items--gray) {
+    margin-top: 30px; }
+  .styleguide .row + h3.component-section__title {
+    margin-top: 50px; }
+  .styleguide .row--colors > div {
+    margin-bottom: 30px; }
+  .styleguide .palette {
+    font-size: 16px;
+    line-height: 1.214;
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+    font-weight: normal;
+    color: #ffffff;
+    margin: 0;
+    padding: 68px 0 8px 10px; }
+    .styleguide .palette dt {
+      font-weight: normal; }
+    .styleguide .palette-items {
+      margin-left: -20px; }
+      .styleguide .palette-items--gray {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        overflow: hidden; }
+        .styleguide .palette-items--gray .palette-item {
+          margin-left: 0;
+          border-radius: 0;
+          padding: 0; }
+          .styleguide .palette-items--gray .palette-item:first-of-type {
+            border-radius: 4px 0 0 4px; }
+          .styleguide .palette-items--gray .palette-item:last-of-type {
+            border-radius: 0 4px 4px 0; }
+          .styleguide .palette-items--gray .palette-item .palette {
+            padding-top: 28px; }
+      .styleguide .palette-items--secondary {
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 4px;
+        overflow: hidden; }
+        .styleguide .palette-items--secondary .palette-item {
+          margin-left: 0;
+          padding: 0;
+          border-radius: 0px; }
+      .styleguide .palette-items + * {
+        margin-top: 30px; }
+    .styleguide .palette-item {
+      float: left;
+      margin: 0 0 0 20px;
+      border-radius: 4px;
+      overflow: hidden; }
+      .styleguide .palette-item--primary {
+        float: none; }
+    .styleguide .palette--primary {
+      background-color: #337ab7;
+      color: 46.0490196078%; }
+      .styleguide .palette--primary.palette--tint {
+        background-color: #78acd9; }
+      .styleguide .palette--primary.palette--shade {
+        background-color: #1d4568; }
+    .styleguide .palette--complement {
+      background-color: #b77133;
+      color: 46.0490196078%; }
+      .styleguide .palette--complement.palette--tint {
+        background-color: #d9a578; }
+      .styleguide .palette--complement.palette--shade {
+        background-color: #68401d; }
+    .styleguide .palette--shade, .styleguide .palette--tint {
+      padding: 10px 0 8px 10px; }
+    .styleguide .palette--gray-base {
+      background-color: #000;
+      color: 0%; }
+    .styleguide .palette--gray-darker {
+      background-color: #222222;
+      color: 13.5%; }
+    .styleguide .palette--gray-dark {
+      background-color: #333333;
+      color: 20%; }
+    .styleguide .palette--gray {
+      background-color: #555555;
+      color: 33.5%; }
+    .styleguide .palette--gray-light {
+      background-color: #777777;
+      color: 46.7%; }
+    .styleguide .palette--gray-lighter {
+      background-color: #eeeeee;
+      color: 93.5%; }
+  .styleguide .palette--color2 {
+    background-color: #13426A;
+    color: 24.5098039216%; }
+    .styleguide .palette--color2.palette--tint {
+      background-color: #2378c0; }
+    .styleguide .palette--color2.palette--shade {
+      background-color: #030c14; }
+  .styleguide .palette--color3 {
+    background-color: #C34F4A;
+    color: 52.7450980392%; }
+    .styleguide .palette--color3.palette--tint {
+      background-color: #dc9997; }
+    .styleguide .palette--color3.palette--shade {
+      background-color: #7d2d2a; }
+  .styleguide .palette--color4 {
+    background-color: #EFC94C;
+    color: 61.7647058824%; }
+    .styleguide .palette--color4.palette--tint {
+      background-color: #f7e5aa; }
+    .styleguide .palette--color4.palette--shade {
+      background-color: #c49a11; }
+  .styleguide .palette--color5 {
+    background-color: #A9CF54;
+    color: 57.0588235294%; }
+    .styleguide .palette--color5.palette--tint {
+      background-color: #d1e5a4; }
+    .styleguide .palette--color5.palette--shade {
+      background-color: #739429; }
+  .styleguide .font-heading {
+    font-size: 40px; }
+  .styleguide .component-section--typography .font-heading {
+    font-size: 40px; }
+  .styleguide .component-section--typography .font-style-bold {
+    font-weight: bold; }
+  .styleguide .component-section--typography [class^="font-style"] span {
+    color: #337ab7; }
+  .styleguide .component-section--typography .link-example--hovered {
+    color: #23527c;
+    text-decoration: underline; }
+  .styleguide .component-section--buttons .row + .row {
+    margin-top: 15px; }
+  .styleguide .component-section--buttons #btnSubmitOrder {
+    float: none;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle; }
+  .styleguide .component-section--buttons .btn {
+    margin-bottom: 5px; }
+  .styleguide #softaddtocart .modalwrap {
+    padding: 15% 2%;
+    background: rgba(0, 0, 0, 0.5); }
+    .styleguide #softaddtocart .modalwrap #simpleModal {
+      position: relative;
+      margin: 0 auto; }
+  .styleguide #softaddtocart .cart-summary {
+    padding-top: 20px; }
+  .styleguide #leftnav {
+    margin-left: 20px;
+    padding: 10px 0;
+    border: 1px solid #eeeeee;
+    border-radius: 4px; }
+    .styleguide #leftnav.affix {
+      top: 20px;
+      width: 242px; }
+    .styleguide #leftnav .nav {
+      margin: 0 0 20px; }
+      .styleguide #leftnav .nav .nav {
+        display: none;
+        margin-bottom: 0; }
+        .styleguide #leftnav .nav .nav a {
+          background: transparent;
+          color: #777777;
+          font-size: 12px;
+          padding: 8px 25px; }
+        .styleguide #leftnav .nav .nav li.active a, .styleguide #leftnav .nav .nav a:hover {
+          background-color: #78acd9;
+          color: 66.0490196078%; }
+      .styleguide #leftnav .nav li.active .nav,
+      .styleguide #leftnav .nav li:hover .nav {
+        display: block; }
+    .styleguide #leftnav a {
+      color: #333333;
+      -webkit-transition: all 0.15s ease-out 0s;
+      transition: all 0.15s ease-out 0s;
+      font-weight: 500;
+      border-left: 2px solid transparent;
+      padding: 10px 15px 10px 20px; }
+    .styleguide #leftnav li.active a, .styleguide #leftnav a:hover {
+      background-color: #337ab7;
+      color: 46.0490196078%; }
+    .styleguide #leftnav .back-to-top {
+      display: block;
+      margin-top: 10px; }
+  .styleguide #product-reviews table[width="100%"] td[width="1%"],
+  .styleguide #product-reviews table[width="100%"] + table[width="100%"] td[width="1%"] {
+    display: none; }
+  .styleguide .soft_add_wrapper {
+    position: relative !important;
+    top: 0 !important; }
+  .styleguide .colors_descriptionbox {
+    background: transparent;
+    border: 1px solid #eee;
+    padding: 10px 15px;
+    border-collapse: separate; }

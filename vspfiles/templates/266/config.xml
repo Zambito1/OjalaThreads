@@ -1,0 +1,42 @@
+<config responsive="true" styleeditorenabled="false" template-snippets="false">
+<navigation_menu category_visible="1" type="list_items_popout" alignment="horizontal" divider="none" width="" sub_levels="3" title_textcolor="" title_bgcolor="">
+<title><![CDATA[Nav Menu 1]]></title>
+<custom_divider><![CDATA[]]></custom_divider>
+<custom_menu_item><![CDATA[]]></custom_menu_item>
+</navigation_menu>
+<navigation_menu category_visible="2" type="list_items_popout" alignment="vertical" divider="none" width="" sub_levels="3" title_textcolor="" title_bgcolor="">
+<title><![CDATA[Nav Menu 2]]></title>
+<custom_divider><![CDATA[]]></custom_divider>
+<custom_menu_item><![CDATA[]]></custom_menu_item>
+</navigation_menu>
+<navigation_menu category_visible="3" type="list_items_popout" alignment="vertical" divider="none" width="" sub_levels="3" title_textcolor="" title_bgcolor="">
+<title><![CDATA[Nav Menu 3]]></title>
+<custom_divider><![CDATA[]]></custom_divider>
+<custom_menu_item><![CDATA[]]></custom_menu_item>
+</navigation_menu>
+<navigation_menu category_visible="4" type="list_items_popout" alignment="vertical" divider="none" width="" sub_levels="3" title_textcolor="" title_bgcolor="">
+<title><![CDATA[Nav Menu 4]]></title>
+<custom_divider><![CDATA[]]></custom_divider>
+<custom_menu_item><![CDATA[]]></custom_menu_item>
+</navigation_menu>
+<navigation_menu category_visible="5" type="list_items_popout" alignment="vertical" divider="none" width="" sub_levels="3" title_textcolor="" title_bgcolor="">
+<title><![CDATA[Nav Menu 5]]></title>
+<custom_divider><![CDATA[]]></custom_divider>
+<custom_menu_item><![CDATA[]]></custom_menu_item>
+</navigation_menu>
+<navigation_menu category_visible="6" type="list_items_popout" alignment="vertical" divider="none" width="" sub_levels="3" title_textcolor="" title_bgcolor="">
+<title><![CDATA[Nav Menu 6]]></title>
+<custom_divider><![CDATA[]]></custom_divider>
+<custom_menu_item><![CDATA[]]></custom_menu_item>
+</navigation_menu>
+<navigation_menu category_visible="7" type="list_items_popout" alignment="vertical" divider="none" width="" sub_levels="3" title_textcolor="" title_bgcolor="">
+<title><![CDATA[Nav Menu 7]]></title>
+<custom_divider><![CDATA[]]></custom_divider>
+<custom_menu_item><![CDATA[]]></custom_menu_item>
+</navigation_menu>
+<navigation_menu category_visible="8" type="list_items_popout" alignment="vertical" divider="none" width="" sub_levels="3" title_textcolor="" title_bgcolor="">
+<title><![CDATA[Nav Menu 8]]></title>
+<custom_divider><![CDATA[]]></custom_divider>
+<custom_menu_item><![CDATA[]]></custom_menu_item>
+</navigation_menu>
+</config>
