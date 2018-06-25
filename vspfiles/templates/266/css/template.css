@@ -10394,3 +10394,7 @@ textarea {
 #vSlider .owl-nav .btn-next {
   right: 0;
   left: auto; }
+
+a.vol-logo__link {
+  margin-left: -10em;
+}
