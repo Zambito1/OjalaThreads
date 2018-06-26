@@ -10400,3 +10400,9 @@ a.vol-logo__link {
   margin-left: -10em;
 }
 
+.owl-carousel .owl-item img {
+  max-height: 74vh!important;
+  width: auto!important;
+  margin: auto!important;
+}
+
