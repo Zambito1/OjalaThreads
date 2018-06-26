@@ -10395,6 +10395,8 @@ textarea {
   right: 0;
   left: auto; }
 
+/* Shift the container for the logo in the navbar over to the left so the navbar buttons will center on the page. */
 a.vol-logo__link {
   margin-left: -10em;
 }
+
