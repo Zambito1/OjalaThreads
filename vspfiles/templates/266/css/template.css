@@ -10400,9 +10400,15 @@ a.vol-logo__link {
   margin-left: -10em;
 }
 
+
+@media only screen and (min-width: 768px) {
+  .owl-carousel .owl-item img {
+
+    max-height: 74vh !important;
+    width: auto !important;
+  }
+}
 .owl-carousel .owl-item img {
-  max-height: 74vh!important;
-  width: auto!important;
   margin: auto!important;
 }
 
