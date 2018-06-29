@@ -471,6 +471,14 @@
 
     const navbar = $('#display_menu_1 > ul');
 
+    const footerLinks = `<li class="link-column__item"><a href="/Articles.asp?ID=5" title="About Ojala Threads">PRIVACY POLICY</a></li><li class="link-column__item"><a href="/Articles.asp?ID=3" title="About Ojala Threads">RETURN POLICY</a></li>`;
+
+    $('li.link-column__item:nth-child(2) > a:nth-child(1)').after(footerLinks);
+
+    $('.text-center-sm-and-down').removeClass('col-lg-4').addClass('col-lg-6');
+
+    $('.footer__logo').remove();
+
     $(logo).prependTo(navbar);
     $(ojalaOrangeText).appendTo(navbar);
 
