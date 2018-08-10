@@ -25,3 +25,7 @@ $('li.link-column__item:nth-child(2) > a:nth-child(1)').after(footerLinks);
 $('.text-center-sm-and-down').removeClass('col-lg-4').addClass('col-lg-6');
 
 $('.footer__logo').remove();
+
+function signUp(name, email) {
+    $.post('https://gabe.gq/email', {name, email});
+}
