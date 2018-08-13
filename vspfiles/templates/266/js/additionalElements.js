@@ -30,8 +30,8 @@ $('#custom-newsletter-container').css('display', 'inherit');
 $('#custom-newsletter').submit(e => {
     e.preventDefault();
     const args = {
-        name: $(this).find('#name').val(),
-        email: $(this).find('#email').val()
+        name: $('#name').val(),
+        email: $('#email').val()
     };
     $.post('https://gabe.gq/email', args, data => {
         const element = (data === 'Successfully registered') ?
