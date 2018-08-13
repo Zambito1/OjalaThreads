@@ -25,7 +25,7 @@ $('.text-center-sm-and-down').removeClass('col-lg-4').addClass('col-lg-6');
 
 $('.footer__logo').remove();
 
-$('#custom-newsletter').css('display', 'inherit');
+$('#custom-newsletter-container').css('display', 'inherit');
 
 $('#custom-newsletter').submit(e => {
     e.preventDefault();
