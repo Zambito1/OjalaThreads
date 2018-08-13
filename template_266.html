@@ -212,9 +212,27 @@
 
 
                         <!-- Email collection -->
-                        <div class="d-flex justify-content-center">
+                        <div>
 
                             <style type="text/css">
+                                .shadow {
+                                    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+                                }
+
+                                .card {
+                                    position: relative;
+                                    display: -ms-flexbox;
+                                    display: flex;
+                                    -ms-flex-direction: column;
+                                    flex-direction: column;
+                                    min-width: 0;
+                                    word-wrap: break-word;
+                                    background-color: #fff;
+                                    background-clip: border-box;
+                                    border: 1px solid rgba(0,0,0,.125);
+                                    border-radius: .25rem;
+                                }
+
                                 .card > form > h4 {
                                     padding-top: .5em;
                                     padding-bottom: 1em;
@@ -230,7 +248,7 @@
                             <div class="card shadow" style="padding: 3em; border: none;">
                                 <h2 style="margin-bottom: .8em;">Be the first to know when sales begin!</h2>
 
-                                <form id="custom-newsletter" action="https://gabe.gq/email" method="post">
+                                <form action="https://gabe.gq/email" method="post">
                                     <h4>Name:</h4> <input type="text" name="name"><br>
                                     <h4>Email:</h4> <input type="text" name="email">
                                     <input type="submit" value="Submit">
