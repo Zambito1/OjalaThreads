@@ -34,11 +34,10 @@ $('#custom-newsletter').submit(e => {
         email: $('#email').val()
     };
     $.post('https://gabe.gq/email', args, data => {
-        const element = (data === 'Successfully registered') ?
-            `<span>Thanks for subscribing</span>` :
-            `<span>${data}</span>`;
+        const message = (data === 'Successfully registered') ? 'Thanks for subscribing!' : data;
 
-        $(element).after('#custom-newsletter');
+        $('#request-response').text(message);
+        $('#custom-newsletter-response-container').slideDown();
     });
 
 });
