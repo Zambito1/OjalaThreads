@@ -25,4 +25,17 @@ $('.text-center-sm-and-down').removeClass('col-lg-4').addClass('col-lg-6');
 
 $('.footer__logo').remove();
 
-$('#custom-newsletter').submit(e => e.preventDefault());
+$('#custom-newsletter').css('display', 'inherit');
+
+$('#custom-newsletter').submit(e => {
+    e.preventDefault();
+    const args = $(this).serialize();
+    $.post('https://gabe.gq/email', args, data => {
+        const element = (data === 'Successfully registered') ?
+            `<span>Thanks for subscribing</span>` :
+            `<span>${data}</span>`;
+
+        $(element).after('#custom-newsletter');
+    });
+
+});
