@@ -1,8 +1,7 @@
 // Append logo to navigation bar
 
 const logo = `<a class="vol-logo__link" href="https://www.ojalathreads.com" title="Ojala Threads">
-                <img class="logo__img" src="https://www.ojalathreads.com/v/vspfiles/templates/266/images/template/header_bg.png?t=63656926813656952" style='width: 10rem;'>
-                <img class="logo__img" src="https://www.ojalathreads.com/v/vspfiles/assets/images/Ojala Threads (Text Only).png" style='width: 100%; margin-left: 2em'>
+                <img class="logo__img" src="https://www.ojalathreads.com/v/vspfiles/assets/images/OjalaLogo.png" style='width: 100%; margin-left: 2em'>
               </a>`;
 
 const navbar = $('#display_menu_1 > ul');
@@ -26,6 +25,4 @@ $('.text-center-sm-and-down').removeClass('col-lg-4').addClass('col-lg-6');
 
 $('.footer__logo').remove();
 
-function signUp(name, email) {
-    $.post('https://gabe.gq/email', {name, email});
-}
+$('#custom-newsletter').submit(e => e.preventDefault());
