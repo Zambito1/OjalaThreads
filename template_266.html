@@ -238,59 +238,6 @@
                         </section>
 
 
-                        <!-- Email collection -->
-                        <div id="custom-newsletter-container" style="clear: both; display: none" align="center">
-
-                            <style type="text/css">
-                                .shadow {
-                                    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
-                                }
-
-                                .card {
-                                    position: relative;
-                                    display: -ms-flexbox;
-                                    display: flex;
-                                    -ms-flex-direction: column;
-                                    flex-direction: column;
-                                    min-width: 0;
-                                    word-wrap: break-word;
-                                    background-color: #fff;
-                                    background-clip: border-box;
-                                    border: 1px solid rgba(0,0,0,.125);
-                                    border-radius: 1rem;
-                                }
-
-                                .card > form > h4 {
-                                    padding-top: .5em;
-                                    padding-bottom: 1em;
-                                    display: inline-block;
-                                    width: 3.3em;
-                                }
-
-                                .card > h2 {
-                                    font-size: 28px;
-                                }
-
-                                .card > form > input {
-                                    margin-left: 1em;
-                                }
-                            </style>
-
-                            <div class="card shadow" style="padding: 3em; border: none; max-width: 77rem" align="left">
-                                <h2 style="margin-bottom: .8em;">Be the first to know when sales begin!</h2>
-
-                                <form id='custom-newsletter'>
-                                    <h4>Name:</h4> <input id="name" type="text" name="name" required><br>
-                                    <h4>Email:</h4> <input id="email" type="text" name="email" required>
-                                    <input type="submit" value="Submit">
-                                </form>
-
-                                <div id="custom-newsletter-response-container" style="display: none;">
-                                    <span id="request-response"></span>
-                                </div>
-                            </div>
-                        </div>
-
 
 
                     </div>
@@ -305,6 +252,68 @@
                 ############################################# -->
                 <div id="slideshow-container" data-max-width="mid" data-se="c-slideshow-accent(gray)"></div>
             </div>
+
+
+            <!-- Email collection -->
+            <div id="custom-newsletter-container" style="clear: both; display: none" align="center">
+
+                <style type="text/css">
+                    .shadow {
+                        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+                    }
+
+                    .card {
+                        position: relative;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -ms-flex-direction: column;
+                        flex-direction: column;
+                        min-width: 0;
+                        word-wrap: break-word;
+                        background-color: #fff;
+                        background-clip: border-box;
+                        border: 1px solid rgba(0,0,0,.125);
+                        border-radius: 1rem;
+                    }
+
+                    .card > form > h4 {
+                        padding-top: .5em;
+                        padding-bottom: 1em;
+                        display: inline-block;
+                        width: 3.3em;
+                    }
+
+                    .card > h2 {
+                        font-size: 28px;
+                    }
+
+                    .card > form > input {
+                        margin-left: 1em;
+                    }
+                </style>
+
+                <div class="card shadow" style="padding: 3em; border: none; max-width: 77rem" align="left">
+                    <h2 style="margin-bottom: .8em;">Be the first to know when sales begin!</h2>
+
+                    <form id='custom-newsletter'>
+                        <h4>Name:</h4> <input id="name" type="text" name="name" required><br>
+                        <h4>Email:</h4> <input id="email" type="text" name="email" required>
+                        <input type="submit" value="Submit">
+                    </form>
+
+                    <div id="custom-newsletter-response-container" style="display: none;">
+                        <span id="request-response"></span>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
             <div class="container container--content">
                 <aside class="vol-list-grid text-right vol-hide hidden-xs">
                     <section class="vol-list-grid-toggle vol-grid" data-grid-type="grid">
