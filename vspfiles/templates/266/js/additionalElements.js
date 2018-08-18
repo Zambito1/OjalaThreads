@@ -41,3 +41,6 @@ $('#custom-newsletter').submit(e => {
     });
 
 });
+
+// Move "size" text to the left in product description
+$('#options_table > tbody > tr > td:nth-child(1)').attr('align','left')
